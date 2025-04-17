@@ -1,0 +1,55 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .main-wrapper {
+    max-width: 400px;
+    margin: 60px auto;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .button-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .color-btn {
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+
+  .color-btn.modal-btn {
+    background-color: #333;
+    color: white;
+}
+
+  
+  .color-btn.red {
+    background-color: red;
+  }
+  
+  .color-btn.yellow {
+    background-color: goldenrod;
+  }
+  
+  .color-btn.green {
+    background-color: green;
+  }
+  
+  .color-btn.blue {
+    background-color: blue;
+  }
+  
